@@ -1,7 +1,12 @@
 import React from "react";
+import RouterDom from "./Router/RouterDom";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <RouterDom />
+    </>
+  );
 };
 
 export default App;
